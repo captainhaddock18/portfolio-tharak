@@ -12,27 +12,28 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <p className="text-sm text-textGreen tracking-[4px]">2013 - Present</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="B.Tech in Engineering Science"
+            subTitle="Indian Institute of Technology Jodhpur (2022 - Present)"
+            result="8.44/10 "
+            des=""
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="PUC II"
+            subTitle="MIPU College(Avanti) (2020-2022)"
+            result="95.7% (PCM - 100/100)"
+            des="PUC(Class 12) is an essential step for students who wish to
+             pursue higher education after completing their secondary school (10th grade)."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Class 10 (CBSE)"
+            subTitle="Shri Manjunatheshwar Central School (2013 - 2020)"
+            result="95.4%"
+            des=""
           />
         </div>
       </div>
@@ -40,27 +41,29 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-textGreen tracking-[4px]">2022 - Present</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="SDE Intern"
+            subTitle="GlutaClass"
+            result="Remote"
+            des="Collaborating with GlutaClass, I've been enhancing the platform to facilitate effective simulation-based learning while also integrating additional features into the backend."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Team Member - Inter-IIT Contingent"
+            subTitle="Adobe Problem Statement"
+            result="Conducted in Chennai"
+            des=" Worked on the idea of building a model which trains on a dataset consisting of tweets and can generate tweets that
+give optimum values of KPI (key Performance Indicators)"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Project Member - PRAISE"
+            subTitle="RAID (AI Society of IITJ)"
+            result="Jodhpur"
+            des="The PRAISE team specializes in Personality Recognition Using AI on Semantics, 
+            employing machine learning models to predict personality traits based on handwriting patterns"
           />
         </div>
       </div>

@@ -1,25 +1,24 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaInstagram, FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiNodedotjs, SiMongodb,SiDocker } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["a Tech Enthusiast.","a Passionate Developer.",  "an AI & ML Explorer."],
       loop: true,
-      typeSpeed: 20,
-      deleteSpeed: 10,
+      typeSpeed: 50,
+      deleteSpeed: 50,
       delaySpeed: 2000,
     });
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-textGreen capitalize">Tharak!</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -27,44 +26,51 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Passionate about technology, I am on a continuous journey of learning and exploring development and deployment. My fascination 
+        with cloud computing drives me to understand 
+        scalable and efficient systems. Occasionally, I delve into AI and ML, harnessing their power to create intelligent applications.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
+            Connect with me on
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
+           <a href='https://www.linkedin.com/in/tharakadatta-hegde-1b6041256/'> 
+           <span className="bannerIcon">
               <FaLinkedinIn />
+            </span></a> 
+           <a href='https://github.com/captainhaddock18'>
+           <span className="bannerIcon">
+              <FaGithub />
+            </span></a>
+            <a href='https://www.instagram.com/tharak_hegde/'>
+            <span className="bannerIcon">
+              <FaInstagram />
             </span>
+            </a>            
+
+
+
           </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
+              Leading skill in
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiMongodb />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiNodedotjs />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiDocker />
             </span>
           </div>
         </div>

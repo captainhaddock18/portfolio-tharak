@@ -11,57 +11,47 @@ const Experience = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-textGreen tracking-[4px]">2022-Present</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Extracurriculars</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+        <ResumeCard
+            title="Vice President - SAA"
+            subTitle="Society of Alumni Affairs"
+            result="(2024- Present)"
+            des=""
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Coordinator - SAA"
+            subTitle="Society of Alumni Affairs"
+            result="(2023 - 2024)"
+            des="Successfully built a support team of 40 first year students. The students were guided and mentored to
+interact with the alumni and execute new ideas to strengthen the network. Started an Initiative of Alumni Memoirs. Alumni memoirs are series of posts each revealing the college
+journey of our alumni. Successfully Conducted Multiple Ask An Alumnus sessions (both Offline and Online) for students to
+get knowledge about various different field"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Assistant Head - IGNUS"
+            subTitle="Annual Cultural Fest of IITJ"
+            result="Feb 2024"
+            des="Successfully executed the entry of a large number of outsiders into the Pronite using an in-house app and E-pass system.Also Set up a help desk to help the people facing issues in the app and the obtaining an E-Pass"
+          />
+          <ResumeCard
+            title="Assistant Head - Prometeo"
+            subTitle="Prometeo - IITJ's Annual Technical and Entrepreneurial Fest"
+            result="Jan 2024"
+            des="Successfully planned and executed an Alumni panel discussion consisting of 2012 batch and 2015 batch Alumni."
+          />
+                    <ResumeCard
+            title="Volunteer - TEDx"
+            subTitle="TEDx IIT Jodhpur"
+            result="Jan 2023"
+            des=""
           />
         </div>
       </div>
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
-        </div>
-      </div>
-    </motion.div>
+ 
+     </motion.div>
   );
 };
 
