@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {  FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { navLinksdata } from '../../constants';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
@@ -100,15 +100,19 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                <a href='https://www.linkedin.com/in/tharakadatta-hegde-1b6041256/'> 
+           <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span></a> 
+           <a href='https://github.com/captainhaddock18'>
+           <span className="bannerIcon">
+              <FaGithub />
+            </span></a>
+            <a href='https://www.instagram.com/tharak_hegde/'>
+            <span className="bannerIcon">
+              <FaInstagram />
+            </span>
+            </a> 
                 </div>
               </div>
               <span
