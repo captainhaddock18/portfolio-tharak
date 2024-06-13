@@ -67,8 +67,9 @@ const Resume = () => {
       {skillData && <Skills />}
       {/* {achievementData && <Achievement />} */}
       {experienceData && <Experience />}
- 
+
     </section>
+
   );
 }
 
