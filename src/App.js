@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
-import IconCloud from "./components/resume/IconCloud";
+import IconCloud from "./components/iconcloud/IconCloud";
 // import Testimonial from "./components/tesimonial/Testimonial";
 
 function App() {

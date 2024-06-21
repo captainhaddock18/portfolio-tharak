@@ -63,8 +63,8 @@ const IconCloud = () => {
     : null;
 
   return (
-    <>
-          <div className="flex justify-center items-center text-center mt-10">
+        <section id="iconcloud" className="w-full py-20 border-b-[1px] border-b-black ">
+        <div className="flex justify-center items-center text-center mt-10">
         <Title
           title="Technologies that I have used earlier and skills I am learning at the moment"
           des="Tech Stack"
@@ -97,7 +97,9 @@ const IconCloud = () => {
     >
       {renderedIcons}
     </Cloud>
-    </>
+        </section>
+
+
 
   );
 };
